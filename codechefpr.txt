@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+    int t,n,i,a[2000],count=0,temp,sum[1000],j;
+    scanf("%d",&t);
+    while(t--)
+    {
+        scanf("%d",&n);
+        for(i=1;i<=n;i++)
+        {
+            a[i]=i;
+        }
+        for(i=1;i<=n;i++)
+        {
+            sum[i]=a[i]+a[n+1-i];
+        }
+        for(i=1;i<=n;i++)
+        {
+            for(j=1;j<=n;j++){
+            if(a[i]+a[n+1-i]==sum[j])
+            {
+                count++;
+            }
+        
+      }}
+        for(i=1;i<=n;i++)
+        {
+            printf("%d ",a[i]);
+        }
+        printf("\n");
+        count=0;
+    }
+}

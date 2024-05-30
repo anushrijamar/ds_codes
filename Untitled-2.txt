@@ -1,0 +1,11 @@
+#include<stdio.h>
+void su(int a);
+int main()
+{
+    int a=5;
+    su(&a);
+}
+void su(int a)
+{
+    printf("%d",a);
+}

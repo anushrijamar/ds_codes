@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+				initial-scale=1"
+    />
+
+    <!--=============== REMIX ICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="events.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="public/image/ACM-Logo.ico">
+
+    <title>Events</title>
+  </head>
+  <body>
+    <section id="navbar">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="public/image/ACM Logo Final.png" class="nav-img" alt="" />
+            ACM-YCCE
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="events.html">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="achievement.html">Achievements</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="team.html">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#social">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <h1 class="text-center">Events Calender</h1>
+    <h4 class="twohead">(Upcoming and Past Events)</h4>
+    <div class="alert alert-primary table-alert" role="alert">Click on Event Name to Know More</div>
+
+    <table class="events-cal">
+      <tr>
+        <th>Sr.No.</th>
+        <th>Name of the Event</th>
+        <th>Event Date</th>
+      </tr>
+
+      <tr>
+        <td>1.</td>
+        <td><a href="#nlco" class="event-name">National Level Coding Olympiad</a></td>
+        <td>24/01/2023</td>
+      </tr>
+
+      <tr>
+        <td>2.</td>
+        <td><a href="#kia" class="event-name">Know-It-All</a></td>
+        <td>19/10/2022</td>
+      </tr>
+
+      <tr>
+        <td>3.</td>
+        <td><a href="#cf" class="event-name">CompuFest 2K22</a></td>
+        <td>01/09/2022 - 03/09/2022</td>
+      </tr>
+
+      <tr>
+        <td>4.</td>
+        <td><a href="#us" class="event-name">Upsurge 2K22</a></td>
+        <td>01/09/2022 - 03/09/2022</td>
+      </tr>
+    </table>
+
+    <!-- <h1 class="text-center">Upcoming Events</h1> -->
+
+
+    <h1 class="text-center">Past Events</h1>
+
+    <section id="banner">
+      <div class="container-fluid" id="banner-container">
+        <div class="row" id="banner-row">
+          <div class="col-md-6" id="banner-col">
+            <h3 id="nlco">National Level Coding Olympiad</h3>
+
+            <p style="text-align: justify;
+            text-justify: inter-word;">
+              A National Level Coding Olympiad will be conducted by ACM-YCCE and YCCE's Codeware: Coding Club collaboratively on 24/01/2022 20:00 to 23:00 on CodeChef Platform. Attempting the contest, participants will know where do they stand in all over India. There are cash prizes to winners and participation certificates for all the students.
+            </p>
+
+            <div class="nlco-download">
+              <a class="btn btn-primary" href="https://drive.google.com/file/d/1Cn5-C4LAcXAagjNkWGQxpFTQw2RlhtYw/view?usp=sharing" role="button" target="_blank">Download Brochure</a>
+
+              <!-- <a class="btn btn-primary" href="https://forms.gle/kdrgokKf8EqC8E1X8" target="_blank" role="button">Register Here</a> -->
+            </div>
+          </div>
+          <div class="col-md-6" id="banner-col2">
+            <!-- <div class="clogo"> -->
+            <img
+              class="img-responsive rounded mx-auto d-block clogoclass"
+              src="public/Events/ACM(1).png"
+              alt=""
+              id="clogo"
+              style="width: 200px; height: auto;"
+            />
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="service">
+      <h1 class="text-center">Winner's of Contest</h1>
+      <div class="container-fluid" id="service-container">
+        <div class="row" id="banner-row">
+          <h3>1st Place</h3>
+          <div class="col-md-12" id="service-col1">
+            <img
+              src="public/Events/Olympiad/Aaditya Barve 1st.jpg"
+              class="img-fluid rounded mx-auto d-block i1"
+              alt="..."
+              style="max-width: 100%; height: 300px; "
+            />
+            <h3>Aaditya Barve</h3>
+
+          </div>
+         
+          <p></p>
+        </div>
+        <div class="row" id="banner-row">
+          
+          <div class="col-md-6" id="service-col2">
+            <h3>2nd Place</h3>
+            <img
+              src="public/Events/Olympiad/Naman JAin 2nd.jpg"
+              class="img-fluid rounded mx-auto d-block i1"
+              alt="..."
+              style="max-width: 100%; height: 300px"
+            />
+            <h3>Naman Jain</h3>
+
+          </div>
+
+          <div class="col-md-6" id="service-col2">
+            <h3>3rd Place</h3>
+            <img
+              src="public/Events/Olympiad/Ved Deshkar 3rd.jpg"
+              class="img-fluid rounded mx-auto d-block i1"
+              alt="..."
+              style="max-width: 100%; height: 300px"
+            />
+            <h3>Ved Deshkar</h3>
+
+          </div>
+          <p></p>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="service" style="text-align: center;">
+      <h1 class="text-center">Winners of Contest</h1>
+      <div class="container-fluid" id="service-container">
+        <div class="row" id="banner-row">
+          <!-- <h3>1st Place</h3> -->
+          <div class="col-md-12" id="service-col2">
+            <!-- <video loop autoplay height="500px"> -->
+              <!-- <source src="public/Events/Olympiad/winnersvideo.mp4" type="video/mp4"> -->
+              <img class="nlco-winner" src="public/Events/Olympiad/winners.png" alt="">
+            <!-- </video> -->
+
+          </div>
+      </div>
+    </section>
+
+
+    <!-- Know It ALL -->
+    <section id="banner">
+      <div class="container-fluid" id="banner-container">
+        <div class="row" id="banner-row">
+          <div class="col-md-6" id="banner-col">
+            <h3 id="kia">Know-It-All</h3>
+
+            <p style="text-align: justify;
+            text-justify: inter-word;">
+              ACM-YCCE conducted an event named KNOW-It-All for the students of second year of all the branches. This event was an awareness session to the students of second year about various technologies that they can get free of cost. Various topics were covered in the session that would be useful for the students in the future. Topics like MLSA, GCP, ICPC, Codechef, Github SDP, Azure etc.
+            </p>
+          </div>
+          <div class="col-md-6" id="banner-col2">
+            <!-- <div class="clogo"> -->
+            <img
+              class="img-responsive rounded mx-auto d-block clogoclass"
+              src="public/Events/Knowitall12.jpg"
+              alt=""
+              id="clogo"
+              style="width: 200px; height: auto;"
+            />
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services -->
+    <section id="service">
+      <h1 class="text-center">Topics Covered</h1>
+      <div class="container-fluid" id="service-container">
+        <div class="row" id="banner-row">
+          <div class="col-md-3" id="service-col1 flyer">
+            <img
+              src="public/Events/GCP.png"
+              class="img-fluid rounded mx-auto d-block i1"
+              alt="..."
+              style="max-width: 100%; height: 200px"
+            />
+            <h3>GCP</h3>
+
+          </div>
+          <div class="col-md-3" id="service-col2 flyer">
+            <img
+              src="public/Events/MLSALogo.png"
+              class="img-fluid rounded mx-auto d-block i1"
+              alt="..."
+              style="max-width: 100%; height: 200px"
+            />
+            <h3>MLSA</h3>
+
+          </div>
+          <div class="col-md-3" id="service-col2">
+            <img
+              src="public/Events/githubsdp.png"
+              class="img-fluid rounded mx-auto d-block i1"
+              alt="..."
+              style="max-width: 100%; height: 200px"
+            />
+            <h3>Github SDP</h3>
+
+          </div>
+          <div class="col-md-3" id="service-col2">
+            <img
+              src="public/Events/Dialog.jpeg"
+              class="img-fluid rounded mx-auto d-block i1"
+              alt="..."
+              style="max-width: 100%; height: 200px"
+            />
+            <h3>DialogFlow</h3>
+
+          </div>
+          <p></p>
+        </div>
+        <div class="alert alert-primary compufest_alert" role="alert">
+          If you have missed the event then you can watch it free on Youtube, 
+          <a
+            href="https://youtu.be/5RkoNLISXGQ"
+            target="__blank"
+            style="font-weight: bolder; text-decoration: none"
+            >click here</a
+          >
+          to watch the event.
+        </div>
+      </div>
+      
+    </section>
+
+
+    <div class="gallery">
+      <h3 class="myh1" style="text-align:center">Photo <span class="myspan1">Gallery</span></h3>
+          <div class="container1">
+              <div class="box1">
+  
+                  <div class="dream1">
+                      <img src="public/Events/Knowitall2.jpg">
+                      <img src="public/Events/Knowitall4.jpg">
+                      
+                  </div>
+                  <div class="dream1">
+                      <img src="public/Events/Knowitall6.jpg">
+                      <img src="public/Events/Knowitall7.jpg">
+                  </div>
+                  <div class="dream1">
+                      <img src="public/Events/Knowitall3.jpg">
+                      <img src="public/Events/Knowitall5.jpg">
+                  </div>
+              </div>
+          </div>
+
+    <section id="banner">
+      <div class="container-fluid" id="banner-container">
+        <div class="row" id="banner-row">
+          <div class="col-md-6" id="banner-col">
+            <h3 id="cf">COMPUFEST 2K22</h3>
+
+            <p style="text-align: justify;
+            text-justify: inter-word;">
+              An International level Technical Symposium of the Dept. of
+              Computer Technology, YCCE Nagpur. Many workshops are organized in
+              which students learn about new technologies and then take part in
+              a competition that follows.
+            </p>
+          </div>
+          <div class="col-md-6" id="banner-col2">
+            <!-- <div class="clogo"> -->
+            <img
+              class="img-responsive rounded mx-auto d-block clogoclass"
+              src="public/Events/compufest-logo.png"
+              alt=""
+              id="clogo"
+              style="width: 500px; height: auto;"
+            />
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services -->
+    <section id="service">
+      <h1 class="text-center">International Events</h1>
+      <div class="container-fluid" id="service-container">
+        <div class="row" id="banner-row">
+          <div class="col-md-3" id="service-col1 flyer">
+            <img
+              src="public/Events/MLSA.png"
+              class="img-fluid rounded mx-auto d-block i1"
+              alt="..."
+              style="max-width: 100%; height: auto; max-height: 600px"
+            />
+            <h3>Computing Technologies</h3>
+
+            <p style="text-align: justify;
+            text-justify: inter-word;">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio, rem dolor. Quisquam voluptas voluptatibus repudiandae.
+              Corporis, exercitationem doloribus saepe facilis molestias
+              assumenda deleniti dolore perferendis dolorem non earum, minima
+              ipsa.
+            </p>
+
+            <div class="text-center">
+              <a href="https://compufest.tech/" target="_blank"
+                ><button
+                  type="button"
+                  class="btn btn-primary"
+                  style="border-radius: 12px"
+                >
+                  Know More
+                </button></a
+              >
+              <p></p>
+            </div>
+          </div>
+          <div class="col-md-3" id="service-col2 flyer">
+            <img
+              src="public/Events/ReverseCoding.png"
+              class="img-fluid rounded mx-auto d-block i1"
+              alt="..."
+              style="max-width: 100%; height: auto; max-height: 600px"
+            />
+            <h3>Reverse Coding</h3>
+
+            <p style="text-align: justify;
+            text-justify: inter-word;">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consequatur maxime a necessitatibus tempora! Molestiae consectetur
+              ex optio animi sapiente maiores quia ipsa rerum at? Ullam laborum
+              quod repellendus quasi maiores!
+            </p>
+
+            <div class="text-center">
+              <a href="https://compufest.tech/" target="_blank"
+                ><button
+                  type="button"
+                  class="btn btn-primary"
+                  style="border-radius: 12px"
+                >
+                  Know More
+                </button></a
+              >
+              <p></p>
+            </div>
+          </div>
+          <div class="col-md-3" id="service-col2">
+            <img
+              src="public/Events/Code breaker.png"
+              class="img-fluid rounded mx-auto d-block i1"
+              alt="..."
+              style="max-width: 100%; height: auto; max-height: 600px"
+            />
+            <h3>Code Breakers</h3>
+
+            <p style="text-align: justify;
+            text-justify: inter-word;">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consequatur maxime a necessitatibus tempora! Molestiae consectetur
+              ex optio animi sapiente maiores quia ipsa rerum at? Ullam laborum
+              quod repellendus quasi maiores!
+            </p>
+
+            <div class="text-center">
+              <a href="https://compufest.tech/" target="_blank"
+                ><button
+                  type="button"
+                  class="btn btn-primary"
+                  style="border-radius: 12px"
+                >
+                  Know More
+                </button></a
+              >
+              <p></p>
+            </div>
+          </div>
+          <div class="col-md-3" id="service-col2">
+            <img
+              src="public/Events/3dworkshop.png"
+              class="img-fluid rounded mx-auto d-block i1"
+              alt="..."
+              style="max-width: 100%; height: auto; max-height: 600px"
+            />
+            <h3>3d Workshop - Blender</h3>
+
+            <p style="text-align: justify;
+            text-justify: inter-word;">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consequatur maxime a necessitatibus tempora! Molestiae consectetur
+              ex optio animi sapiente maiores quia ipsa rerum at? Ullam laborum
+              quod repellendus quasi maiores!
+            </p>
+
+            <div class="text-center">
+              <a href="https://compufest.tech/" target="_blank"
+                ><button
+                  type="button"
+                  class="btn btn-primary"
+                  style="border-radius: 12px"
+                >
+                  Know More
+                </button></a
+              >
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="alert alert-primary compufest_alert" role="alert">
+        13 events were conduncted under Compufest 2K22, including both national
+        and international events,
+        <a
+          href="https://compufest.tech/"
+          target="__blank"
+          style="font-weight: bolder; text-decoration: none"
+          >click here</a
+        >
+        to go to Compufest 2k22 Website
+      </div>
+    </section>
+
+    <div class="gallery">
+    <h3 class="myh1" style="text-align:center">Photo <span class="myspan1">Gallery</span></h3>
+        <div class="container1">
+            <div class="box1">
+
+                <div class="dream1">
+                    <img src="public/img/compufest (1).jpg">
+                    <img src="public/img/compufest (2).jpg">
+                    <img src="public/img/compufest (7).jpg">
+                </div>
+                <div class="dream1">
+                    <img src="public/img/compufest (3).jpg">
+                    <img src="public/img/compufest (4).jpg">
+                </div>
+                <div class="dream1">
+                    <img src="public/img/compufest (5).jpg">
+                    <img src="public/img/compufest (6).jpg">
+                </div>
+            </div>
+        </div>
+
+
+    <!-- social -->
+    <section id="banner">
+      <div class="container-fluid" id="banner-container">
+        <div class="row" id="banner-row">
+          <div class="col-md-6" id="banner-col">
+            <h3 id="us">UPSURGE 2K22</h3>
+
+            <p style="text-align: justify;
+            text-justify: inter-word;">
+              UPSURGE is a National fest organized by Computer Science and
+              Engineering department YCCE, Nagpur. It is an annual fest where
+              you will witness technical, cultural, social, sports, literature
+              all in one place. Pleasure informing that this year is its first
+              year and with a view to set exceptional benchmarks, the planned
+              events this year are SmackAthon- a hackathon, hands-on workshops,
+              Seminars, a grand pitching event, with a spice of literature and
+              fun of the flash mob. Upsurge as its name suggest A rise in
+              strength, so as to keep alive your desire to rise in! And your
+              desire to win, catch the zeal and compete. We are so excited to
+              have you here!”
+            </p>
+          </div>
+          <div class="col-md-6" id="banner-col2">
+            <img
+              class="img-responsive rounded mx-auto d-block"
+              src="public/Events/Upsurge2K22.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services -->
+    <section id="service">
+      <h1 class="text-center">EVENTS</h1>
+      <div class="container-fluid" id="service-container">
+        <div class="row" id="banner-row">
+          <div class="col-md-3 px-4" id="service-col1">
+            <img
+              src="public/Events/Github/Github_flyer.jpg"
+              class="img-fluid rounded mx-auto d-block i1"
+              alt="..."
+            />
+            <h3>Github Seminar</h3>
+
+            <p style="text-align: justify;
+            text-justify: inter-word;">
+              Amazing Technical Event guided by our speaker Sankalp Kotewar -  SDE-II at GitHub.
+              You'll get to know about : Repositories, Branches, Pull requests, Commits, World of open source, GitHub features, GitHub Students pack & Many More
+            </p>
+
+            <div class="text-center">
+              <a href="https://upsurge2k22.tech/github.html" target="_blank"
+                ><button
+                  type="button"
+                  class="btn btn-primary"
+                  style="border-radius: 12px"
+                >
+                  Know More
+                </button></a
+              >
+              <p></p>
+            </div>
+          </div>
+          <div class="col-md-3 px-4" id="service-col2">
+            <img
+              src="public/Events/Smackathon/Smackathon_flyer.png"
+              class="img-fluid rounded mx-auto d-block i1"
+              alt="..."
+            />
+            <h3>Smackathon</h3>
+
+            <p style="text-align: justify;
+            text-justify: inter-word;">
+              An Online Hackathon for the Developers, all around the Nation. The Hackathon aims to understand the Real Life Problem and provide Solution for it. Exciting Cash prizes for winners and Goddies to all the participants were given.
+            </p>
+
+            <div class="text-center">
+              <a href="https://upsurge2k22.tech/hackthon.html" target="_blank"
+                ><button
+                  type="button"
+                  class="btn btn-primary"
+                  style="border-radius: 12px"
+                >
+                  Know More
+                </button></a
+              >
+              <p></p>
+            </div>
+          </div>
+          <div class="col-md-3 px-4" id="service-col2">
+            <img
+              src="public/Events/Omnific/OMNIFIC_flyer.png"
+              class="img-fluid rounded mx-auto d-block i1"
+              alt="..."
+            />
+            <h3>Omnific</h3>
+
+            <p style="text-align: justify;
+            text-justify: inter-word;">
+               The topic of the workshop was 'UI/UX DESIGN FUNDAMENTALS'. The facilitator provided information about UI/UX and took a hands-on workshop on App design and Website design  using Figma . 
+            </p>
+
+            <div class="text-center">
+              <a href="https://upsurge2k22.tech/omnific1" target="_blank"
+                ><button
+                  type="button"
+                  class="btn btn-primary"
+                  style="border-radius: 12px"
+                >
+                  Know More
+                </button></a
+              >
+              <p></p>
+            </div>
+          </div>
+          <div class="col-md-3 px-4" id="service-col2">
+            <img
+              src="public/Events/Magic Pen/MagicPen_flyer.jpg"
+              class="img-fluid rounded mx-auto d-block i1"
+              alt="..."
+            />
+            <h3>Magic Pen</h3>
+
+            <p style="text-align: justify;
+            text-justify: inter-word;">
+              Magic Pen is an individual article writing competition, from the above topics choose any one topic, write an article on it and submit. The Competition was open for all the students currently pursuing their U.G.
+            </p>
+
+            <div class="text-center">
+              <a href="https://upsurge2k22.tech/magic_pen" target="_blank"
+                ><button
+                  type="button"
+                  class="btn btn-primary"
+                  style="border-radius: 12px"
+                >
+                  Know More
+                </button></a
+              >
+              <p></p>
+            </div>
+          </div>
+        </div>
+		<div class="container-fluid" id="service-container">
+        <div class="row" id="banner-row">
+          <div class="col-md-3 px-4" id="service-col1">
+            <img
+              src="public/Events/Object oriented programming using java/Object oriented programming using java.jpg"
+              class="img-fluid rounded mx-auto d-block i1"
+              alt="..."
+            />
+            <h3>Object Oriented Programming using Java</h3>
+
+            <p style="text-align: justify;
+            text-justify: inter-word;">
+              Amazing Technical Event guided by our speaker Mr.Suraj Nair - Project Engineer,President system,Nagpur.
+			It was a two day student development program which covered the object oriented concepts of programming in java.
+            </p>
+
+            <div class="text-center">
+              <a href="https://upsurge2k22.tech/github.html" target="_blank"
+                ><button
+                  type="button"
+                  class="btn btn-primary"
+                  style="border-radius: 12px"
+                >
+                  Know More
+                </button></a
+              >
+              <p></p>
+            </div>
+          </div>
+          <div class="col-md-3 px-4" id="service-col2">
+            <img
+              src="public/Events/Sampark/Sampark_flyer.png"
+              class="img-fluid rounded mx-auto d-block i1"
+              alt="..."
+            />
+            <h3>Sampark</h3>
+
+            <p style="text-align: justify;
+            text-justify: inter-word;">
+          This event was recited by Mr.Gandhar Patwardhan,Mr.Kiran Macchewar,Mr.Kirti Bansod,Mr.Abhilash Bhurse. Information Thiabout the programming languages and other skills required for placement. The program was beneficial for student.
+            </p>
+
+            <div class="text-center">
+              <a href="https://upsurge2k22.tech/hackthon.html" target="_blank"
+                ><button
+                  type="button"
+                  class="btn btn-primary"
+                  style="border-radius: 12px"
+                >
+                  Know More
+                </button></a
+              >
+              <p></p>
+            </div>
+          </div>
+          <div class="col-md-3 px-4" id="service-col2">
+            <img
+              src="public/Events/Sampark/Sampark_flyer.png"
+              class="img-fluid rounded mx-auto d-block i1"
+              alt="..."
+            />
+            <h3>Webinar on AI_ML</h3>
+
+            <p style="text-align: justify;
+            text-justify: inter-word;">
+               The topic of the workshop was 'AI/ML'. The facilitator,Mr.Arpit Yadav and Harish Zambani provided information about AI_ML and took a practical session to know the wide range of AI/ML.
+
+            <div class="text-center">
+              <a href="https://upsurge2k22.tech/omnific1" target="_blank"
+                ><button
+                  type="button"
+                  class="btn btn-primary"
+                  style="border-radius: 12px"
+                >
+                  Know More
+                </button></a
+              >
+              <p></p>
+            </div>
+          </div>
+          <div class="col-md-3 px-4" id="service-col2">
+            <img
+             src="public/Events/Webinar on AI_ML/Webinar on AI_ML_flyer.png"
+              class="img-fluid rounded mx-auto d-block i1"
+              alt="..."
+            />
+        
+          </div>
+        </div>
+        
+ 
+        <div class="alert alert-primary compufest_alert" role="alert">
+          National Level Events were conducted in Upsurge2K22, 
+          <a
+            href="https://upsurge2k22.tech/index.html"
+            target="__blank"
+            style="font-weight: bolder; text-decoration: none"
+            >click here</a
+          >
+          to go to Upsurge2K22 Website.
+        </div>
+      </div>
+    </section>
+
+    <div class="gallery">
+      <h3 class="myh1" style="text-align:center">Photo <span class="myspan1">Gallery</span></h3>
+          <div class="container1">
+              <div class="box1">
+  
+                  <div class="dream1">
+                      <img src="public/Events/Github/github1.jpg">
+                      <img src="public/Events/Upsurge2.JPG">
+                      <img src="public/Events/Upsurge3.JPG">
+                  </div>
+                  <div class="dream1">
+                      <img src="public/Events/Upsurge1.jpg">
+                      <img src="public/Events/Omnific/omnific1.jpg">
+                  </div>
+                  <div class="dream1">
+                      <img src="public/Events/Upsurge5.JPG">
+                      <img src="public/Events/Omnific/omnific2.png">
+                  </div>
+              </div>
+          </div>
+
+    <!-- social -->
+    <section id="social">
+      <h1 class="text-center">Get In Touch</h1>
+      <div class="d-grid gap-2 d-md-flex justify-content-center">
+        <div class="row align-items-center" id="social-row">
+          <div class="col-md-6 social-col">
+            <a href="https://www.instagram.com/acm.ycce/" target="_blank"
+              ><img
+                class="img-responsive rounded mx-auto d-block"
+                src="public/icon/instagram-line.png"
+                alt=""
+            /></a>
+          </div>
+          
+          <div class="col-md-6 social-col">
+            <a href="https://in.linkedin.com/company/acm-ycce" target="_blank"
+              ><img
+                class="img-responsive rounded mx-auto d-block"
+                src="public/icon/linkedin-box-line.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section id="footer">
+      <section id="banner">
+        <div class="container-fluid" id="banner-container">
+          <div class="row" id="banner-row">
+            <div class="col-md-4" id="footer-col1">
+              <h3>Location</h3>
+              <p>Yeshwantrao Chavan College of Engineering
+                Hingna Road, Wanadongri, Nagpur- 441110<br>
+                State : Maharashtra<br>
+                Country : India</p>
+            </div>
+            <div class="col-md-4" id="footer-col2">
+              <h3>Contact Us</h3>
+
+              <p>Email Us- acmscycce@gmail.com</p>
+
+              
+            </div>
+            <div class="col-md-4" id="footer-col2">
+              <h3>Design & Developed by</h3>
+
+              <p>Team ACM-YCCE</p>
+
+              
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
